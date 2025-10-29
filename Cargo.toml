@@ -1,0 +1,14 @@
+[package]
+name = "filemaster"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name"]
+description = "A Rust clone of ls command"
+license = "MIT"
+
+[dependencies]
+clap = "4.1.10"
+termcolor = "1.2.0"
+dirs-next = "2.1.0"
+lazy_static = "1.4.0"
+chrono = "0.4.23"
